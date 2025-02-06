@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Kingsize",
+    "price": "500,000,000",
+    "detail": "4 Bedroom Fully Detached, Lekki Phase one, Lagos.",
+    "image": "./building6.jpg"
+  },
+  {
+    "name": "Royal Garden",
+    "price": "800,000,000",
+    "detail": "5 Bedroom Fully Detached Duplex, Ikeja, Lagos.",
+    "image": "./building5.jpg"
+  },
+  {
+    "name": "Avilla",
+    "price": "300,000,000",
+    "detail": "4 Bedroom Semi-Detached Duplex, Aguda Surulere, Lagos.",
+    "image": "./building4.jpg"
+  },
+  {
+    "name": "Enchante",
+    "price": "400,000,000",
+    "detail": "5 Bedroom Semi-Detached Duplex, Ikeja GRA, Lagos.",
+    "image": "./building3.jpg"
+  },
+  {
+    "name": "Papal Villa",
+    "price": "500,000,000",
+    "detail": "5 Bedroom Fully Detached Duplex, Ikoyi, Lagos.",
+    "image": "./building2.jpg"
+  },
+  {
+    "name": "Castle Oreo",
+    "price": "450,000,000",
+    "detail": "5 Bedroom Fully Detached Duplex, Magodo, Lagos.",
+    "image": "./building1.jpg"
+  }
+]

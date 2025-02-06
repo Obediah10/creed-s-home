@@ -1,0 +1,30 @@
+.f-container{
+  background-color: blue;
+  color: white;
+  justify-content: space-between;
+  font-weight: bold;
+}
+.f-left{
+  color: white;
+  gap: 1rem;
+}
+.lg{
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.f-menu{
+ 
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+  font-weight: 500;
+}
+@media (max-width: 760px) {
+  .f-container{
+    justify-content: center;
+  }
+  .f-container>div{
+    align-items: center!important;
+    text-align: center;
+  }
+}
