@@ -1,21 +1,17 @@
 import React from 'react'
 import {Swiper, SwiperSlide, useSwiper} from "swiper/react"
 import "swiper/css"
-import './Residences.css'
-import data from '../../utils/slider.json'
+import './Lands.css'
+import data from '../../utils/slider2.json'
 import { sliderSettings } from '../../utils/common'
-import  Header  from '../Header/Header'
-import { Footer } from '../Footer/Footer'
-import Lands from '../Lands/Lands'
-
-const Residences = () => {
+function Lands() {
   return (
-   <section className="r-wrapper"  id='Residences'>
-    <Header/>
+    <section className="r-wrapper"  id='Lands'>
+  
     <div className="paddings innerWidth r-container">
        <div className="r-head flexColStart">
          <span className='orangeText'>Best Choices</span>
-         <span className='primaryText'>Popular Residencies</span>
+         <span className='primaryText'>Popular Lands</span>
        </div>
        <Swiper {...sliderSettings}>
            <SliderButtons/>
@@ -37,13 +33,11 @@ const Residences = () => {
         }
        </Swiper>
     </div>
-     <Lands/>
-     <Footer/>
    </section>
   )
 }
 
-export default Residences
+export default Lands
 
 const SliderButtons = () => {
   const swiper = useSwiper();
@@ -54,3 +48,6 @@ const SliderButtons = () => {
     </div>
   )
 }
+  
+
+
