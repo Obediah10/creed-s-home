@@ -40,9 +40,9 @@ const Header = () => {
         style={getMenuStyles(menuOpened)}>
           <Link to="/">Home</Link>
           <Link to="/residences">Properties</Link>
-          <Link to="/values">About Us</Link>
+          <Link to="/about">About Us</Link>
           {/* <Link to="#Contacts">Contact Us </Link> */}
-          <Link to="/getstarted">Get Started</Link>
+          {/* <Link to="/getstarted">Get Started</Link> */}
           <button className='button'>
           <Link to="/contacts">Contact</Link>
           </button>

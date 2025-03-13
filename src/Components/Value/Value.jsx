@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import {
   Accordion,
   AccordionItem,
@@ -11,19 +11,27 @@ import "react-accessible-accordion/dist/fancy-example.css"
 import { MdOutlineArrowDropDown } from 'react-icons/md'
 import './Value.css'
 import data from "../../utils/Accordion"
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 function Value()  {
+    useEffect(() =>{
+        Aos.init({duration: 2000})
+    
+       }, [])
+
+
   return (
     <section className="v-wrapper" id='Values'>
        <div className="paddings innerWidth flexCenter v-container">
            {/* left side */}
-           <div className="v-left">
+           <div data-aos="fade-up" className="v-left">
             <div className="image-container">
-              <img src="./banner3.jpg" alt="" />
+              <img src="./h2.jpg" alt="" />
             </div>
            </div>
 
            {/* right side */}
-           <div className="flexColStart v-right">
+           <div data-aos="fade-up" className="flexColStart v-right">
             <span className='orangeText'>Our Value</span>
             <span className='primaryText'>Value We Offer To You</span>
             <span className='secondaryText'> We always ready to help by providing the best services for you.

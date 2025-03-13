@@ -1,15 +1,23 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import {Swiper, SwiperSlide, useSwiper} from "swiper/react"
 import "swiper/css"
 import './Lands.css'
 import data from '../../utils/slider2.json'
 import { sliderSettings } from '../../utils/common'
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 function Lands() {
+  useEffect(() =>{
+    Aos.init({duration: 2000})
+   }, [])
+
+
+
   return (
     <section className="r-wrapper"  id='Lands'>
   
-    <div className="paddings innerWidth r-container">
-       <div className="r-head flexColStart">
+    <div data-aos="fade-up" className="paddings innerWidth r-container">
+       <div  className="r-head flexColStart">
          <span className='orangeText'>Best Choices</span>
          <span className='primaryText'>Popular Lands</span>
        </div>
