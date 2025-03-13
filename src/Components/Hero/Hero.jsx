@@ -104,8 +104,8 @@ const Hero = () => {
          
           </div>
 
-     </div> 
-     <Companies/> 
+     </div>  
+     {/* <Companies/>  */}
        <Value/> 
       <Footer/> 
    </section>
